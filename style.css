@@ -1,4 +1,4 @@
-/* ============================================== */
+ /* ============================================== */
 /* CSS STYLESHEET FOR PORTFOLIO                   */
 /* ============================================== */
 /* This file controls how your portfolio looks    */
@@ -17,7 +17,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Main font */
     line-height: 1.6;       /* Space between lines of text */
-    color: #242424;         /* Secondary color for text */
+    color: #d61f1f;         /* Secondary color for text */
     background: linear-gradient(to bottom, #dde8e3 0%, #c8d9d1 100%); /* Primary foreground gradient background */
 }
 
@@ -25,7 +25,7 @@ body {
 /* NAVIGATION BAR - Sticky header at the top     */
 /* ============================================== */
 nav {
-    background: linear-gradient(135deg, #242424 0%, #1a1a1a 100%); /* Secondary dark gradient background */
+    background: linear-gradient(135deg, #121111 0%, #2d2e2f 100%); /* Secondary dark gradient background */
     padding: 1.2rem 0;         /* Top and bottom spacing */
     position: sticky;          /* Stays at top when scrolling */
     top: 0;                    /* Position at very top */
@@ -115,6 +115,8 @@ section h2::after {
     /* background-image: url('your-image.jpg'); */
     /* background-size: cover; */
     /* background-position: center; */
+    background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=altitude-clouds-cold-417173.jpg&fm=jpg);
+    background-size:cover ;
     color: #fafafa;            /* Secondary foreground (light text) */
     box-shadow: 0 15px 50px rgba(0, 98, 57, 0.4); /* Green glow */
     border-radius: 20px;       /* Rounded corners */
@@ -377,3 +379,5 @@ footer {
         font-size: 1rem;       /* Smaller button text */
     }
 }
+
+ 
