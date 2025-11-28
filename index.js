@@ -1,4 +1,4 @@
-/* ============================================== */
+ /* ============================================== */
 /* JAVASCRIPT FOR SMOOTH SCROLLING                */
 /* ============================================== */
 /* This file makes the navigation links scroll smoothly instead of jumping */
